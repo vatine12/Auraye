@@ -1,0 +1,33 @@
+# Development scripts and datasets
+Datasets/
+
+# Model weights (too large for GitHub)
+# The production model (model_yolov8n.tflite) is required to run — see README
+*.pt
+*.onnx
+*.pth
+best_float32.tflite
+best_int8.tflite
+best_float16.tflite
+new.pt
+
+# Virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Private keys — NEVER commit
+*.pem
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Videos
+*.mp4
+*.avi
